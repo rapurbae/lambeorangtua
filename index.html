@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lambe × Cap Orang Tua — Coming Soon</title>
+  <meta name="description" content="Kolaborasi Lambe dengan Cap Orang Tua — warisan herbal Indonesia bertemu cerita baru. Coming soon — tinggalkan email untuk diingatkan." />
+  <meta name="theme-color" content="#200a0f" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23200a0f'/%3E%3Ccircle cx='32' cy='32' r='20' fill='none' stroke='%23c9a15a' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23c9a15a'/%3E%3C/svg%3E" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lambe × Cap Orang Tua — Coming Soon" />
+  <meta property="og:description" content="Dua nama warisan, satu cerita baru. Kolaborasi Lambe × Cap Orang Tua — coming soon." />
+  <meta property="og:url" content="https://lambeorangtua.com" />
+  <meta property="og:image" content="https://lambeorangtua.com/assets/img/hero.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background photo: dark herbal / apothecary (Unsplash) — credit noted in README -->
+  <div class="bg" aria-hidden="true"></div>
+  <div class="overlay" aria-hidden="true"></div>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="frame" aria-hidden="true"></div>
+
+  <main>
+    <header class="brand">
+      <svg class="seal" viewBox="0 0 120 120" role="img" aria-label="Seal kolaborasi Lambe dan Cap Orang Tua">
+        <defs>
+          <path id="seal-arc-top" d="M 16,60 a 44,44 0 0 1 88,0" fill="none" />
+          <path id="seal-arc-bot" d="M 16,60 a 44,44 0 0 0 88,0" fill="none" />
+        </defs>
+        <circle cx="60" cy="60" r="58" fill="none" stroke="currentColor" stroke-width="1.6" />
+        <circle cx="60" cy="60" r="52.5" fill="none" stroke="currentColor" stroke-width="0.7" />
+        <circle cx="60" cy="60" r="34" fill="none" stroke="currentColor" stroke-width="0.7" stroke-dasharray="2 3" />
+        <text font-family="Karla, sans-serif" font-weight="700" font-size="10.5" letter-spacing="3.2" fill="currentColor">
+          <textPath href="#seal-arc-top" startOffset="50%" text-anchor="middle">LAMBE</textPath>
+        </text>
+        <text font-family="Karla, sans-serif" font-weight="700" font-size="7.8" letter-spacing="1.9" fill="currentColor">
+          <textPath href="#seal-arc-bot" startOffset="50%" text-anchor="middle">CAP ORANG TUA</textPath>
+        </text>
+        <text x="60" y="70" font-family="'Playfair Display', serif" font-style="italic" font-size="34" text-anchor="middle" fill="currentColor">&#215;</text>
+        <rect x="13.2" y="57.2" width="5.6" height="5.6" transform="rotate(45 16 60)" fill="currentColor" />
+        <rect x="101.2" y="57.2" width="5.6" height="5.6" transform="rotate(45 104 60)" fill="currentColor" />
+      </svg>
+      <p class="brand-badge">Sebuah Kolaborasi &middot; Warisan Herbal Indonesia</p>
+    </header>
+
+    <div class="divider" aria-hidden="true"><span class="rule"></span><span class="gem"></span><span class="rule"></span></div>
+
+    <h1 class="headline">COMING <em>SOON</em></h1>
+
+    <p class="tagline">Dua nama warisan, satu cerita baru.</p>
+    <p class="sub">Lambe berkolaborasi dengan Cap Orang Tua &mdash; merayakan<br class="br-desktop" /> warisan herbal Indonesia dan membawanya ke zaman baru.</p>
+
+    <section class="countdown" aria-label="Hitung mundur menuju peluncuran">
+      <div class="cd-block"><span class="cd-num" id="cd-days">&mdash;</span><span class="cd-label">HARI</span></div>
+      <div class="cd-block"><span class="cd-num" id="cd-hours">&mdash;</span><span class="cd-label">JAM</span></div>
+      <div class="cd-block"><span class="cd-num" id="cd-mins">&mdash;</span><span class="cd-label">MENIT</span></div>
+      <div class="cd-block"><span class="cd-num" id="cd-secs">&mdash;</span><span class="cd-label">DETIK</span></div>
+    </section>
+    <p class="cd-done" id="cd-done" hidden>Cerita baru sudah dimulai.</p>
+
+    <div class="remind-row">
+      <form id="notify-form" class="notify" novalidate>
+        <input type="email" id="email" name="email" placeholder="Email kamu" autocomplete="email" required />
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <button type="submit">Ingatkan Saya</button>
+      </form>
+      <a id="cal-link" class="cal-btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="16" rx="3" stroke="currentColor" stroke-width="2" />
+          <path d="M3 10h18M8 3v4M16 3v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        Simpan Tanggal
+      </a>
+    </div>
+    <p class="notify-err" id="notify-err" hidden>Masukkan alamat email yang valid.</p>
+    <p class="notify-done" id="notify-done" hidden>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="11" fill="#c9a15a" />
+        <path d="M7 12.5l3.2 3L17 8.8" stroke="#200a0f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      Terima kasih &mdash; kabar kolaborasi ini akan sampai ke kamu lebih dulu.
+    </p>
+  </main>
+
+  <footer>&copy; 2026 lambeorangtua.com</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
