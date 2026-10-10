@@ -2,8 +2,8 @@
 
 Landing page "Coming Soon" untuk kolaborasi **Lambe × Cap Orang Tua**.
 
-- **Tema:** heritage warisan herbal — maroon tua, emas, krem; seal kolaborasi melingkar "LAMBE × CAP ORANG TUA" ala label klasik.
-- **Fitur:** countdown menuju peluncuran (1 Januari 2027), form "Ingatkan Saya" (email), tombol "Simpan Tanggal" (Google Calendar).
+- **Tema:** heritage warisan — maroon tua, emas, krem; seal kolaborasi melingkar "LAMBE × CAP ORANG TUA" ala label klasik.
+- **Fitur:** form "Ingatkan Saya" (email), tombol "Simpan Tanggal" (Google Calendar).
 - **Domain:** [lambeorangtua.com](https://lambeorangtua.com)
 
 ## Struktur
@@ -11,7 +11,7 @@ Landing page "Coming Soon" untuk kolaborasi **Lambe × Cap Orang Tua**.
 ```
 index.html    — struktur halaman (seal kolaborasi SVG)
 styles.css    — tema heritage maroon / emas
-script.js     — countdown, form notifikasi, link kalender
+script.js     — form notifikasi, link kalender
 assets/img/   — hero (Unsplash)
 ```
 
