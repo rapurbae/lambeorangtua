@@ -15,9 +15,14 @@ script.js     — countdown, form notifikasi, link kalender
 assets/img/   — hero (Unsplash)
 ```
 
+## Aset
+
+- Background: "Apothecary bottles" — Kelly Sikkema (@kellysikkema), Unsplash License.
+- Logo resmi Cap Orang Tua / OT Group milik masing-merek — pakai aset resmi dari pihak kolaborasi saat sudah tersedia.
+
 ## Catatan
 
-- "Cap Orang Tua" adalah merek warisan herbal dari Orang Tua Group (Indonesia). Aset logo resmi milik masing-masing pemilik merek — tampilkan saat aset resmi kolaborasi sudah tersedia.
+- Cap Orang Tua = merek warisan **sejak 1948** (Anggur Merah Cap Orang Tua, produk asli Orang Tua Group — minuman kesehatan tradisional berbahan anggur merah).
 - Ganti `LAUNCH` di `script.js` untuk mengubah tanggal peluncuran.
 
 ## Deploy
